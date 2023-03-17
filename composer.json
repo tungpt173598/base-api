@@ -1,0 +1,27 @@
+{
+    "name": "tungpt/base-api",
+    "description": "My first package",
+    "autoload": {
+        "psr-4": {
+            "Tungpt\\Base\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tungpt",
+            "email": "thanhtung.14599@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "~7.0|~8.0|~9.0"
+    },
+    "version": "1.0.0",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tungpt\\Base\\BaseApiServiceProvider"
+            ]
+        }
+    }
+}
