@@ -1,6 +1,6 @@
 {
     "name": "tungpt/base-api",
-    "description": "My first package",
+    "description": "Base API Laravel app with repository pattern",
     "autoload": {
         "psr-4": {
             "Tungpt\\Base\\": "src/"
