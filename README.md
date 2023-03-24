@@ -15,4 +15,7 @@ php artisan make:repository RepositoryName
 php artisan make:service ServiceName
 ```
 
+# License
+MIT License. [Read here](https://github.com/tungpt173598/base-api/blob/main/LICENSE)
+
 
