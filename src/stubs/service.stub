@@ -6,16 +6,8 @@ use Tungpt\Base\BaseService;
 
 class {{ class }} extends BaseService
 {
-    /**
-    * Construct example
-    *
-    public function __construct(Repository $repository)
-    {
-        $this->repository = $repository;
-    }
-    */
     public function __construct()
     {
-        // Inject repository here
+        // Inject model here
     }
 }
