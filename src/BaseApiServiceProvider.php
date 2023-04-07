@@ -22,6 +22,17 @@ class BaseApiServiceProvider extends ServiceProvider
 
     public function boot()
     {
-
+        $this->publishes([
+            __DIR__.'/BaseResponse.php' => app()->getNameSpace() . '\Traits\BaseResponse.php',
+        ], 'base-response');
+        $this->publishes([
+            __DIR__.'/BaseApiController.php' => app()->getNameSpace() . '\Http\Controllers\Api\BaseApiController.php',
+        ], 'base-controller');
+        $this->publishes([
+            __DIR__.'/BaseService.php' => app()->getNameSpace() . '\Services\BaseService.php',
+        ], 'base-service');
+        $this->publishes([
+            __DIR__.'/BaseRepository.php' => app()->getNameSpace() . '\Repositories\BaseRepository.php',
+        ], 'base-repository');
     }
 }
